@@ -1,0 +1,6 @@
+send_request_task:
+  description: >
+    Get the website content of given website {website} and write content of it to the given file name {filename}.
+  expected_output: >
+    The string output of the website written to a file.
+  agent: researcher
