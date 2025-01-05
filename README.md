@@ -52,3 +52,17 @@ docker run -d \
   --name pgvector \
   phidata/pgvector:16
 ```
+
+
+
+# Run Example Agents
+```
+cd smolagents
+python3 main.py
+
+cd phidata
+python3 main.py
+
+cd crewai
+crewai run
+```
