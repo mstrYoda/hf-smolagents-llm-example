@@ -13,7 +13,19 @@ More comprehensive than Smolagents, has built-in tool set. It is easy to write R
 
 Complex, requires more setup step. Achieves the result but it takes more time to built what you want to do.
 
+![alt text](crewai.png)
+
 # Running Code Examples
+
+Note: Do not forget to fill api key for your gemini or custom llm apis.
+
+## Installing Ollama Models
+
+```
+ollama install llama3
+ollama install qwen2.5-coder
+ollama install openhermes
+```
 
 ## Creating Conda Environment
 
@@ -52,8 +64,6 @@ docker run -d \
   --name pgvector \
   phidata/pgvector:16
 ```
-
-
 
 # Run Example Agents
 ```
